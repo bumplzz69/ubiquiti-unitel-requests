@@ -1,0 +1,33 @@
+Source: requests
+Maintainer: Kenneth Reitz <me@kennethreitz.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), debhelper (>= 7), python-support (>= 0.8.4)
+Standards-Version: 3.8.4
+
+Package: python-requests
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Description: Python HTTP for Humans.
+ Requests: HTTP for Humans
+ =========================
+ .
+ .. image:: https://badge.fury.io/py/requests.png
+     :target: http://badge.fury.io/py/requests
+ .
+ .. image:: https://pypip.in/d/requests/badge.png
+         :target: https://crate.io/packages/requests/
+ .
+ .
+ Requests is an Apache2 Licensed HTTP library, written in Python, for human
+ beings.
+ .
+ Most existing Python modules for sending HTTP requests are extremely
+ verbose and cumbersome. Python's builtin urllib2 module provides most of
+ the HTTP capabilities you should need, but the api is thoroughly broken.
+ It requires an enormous amount of work (even method overrides) to
+ perform the simplest of tasks.
+ .
+ Things shouldn't be this way. Not in Python.

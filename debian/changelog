@@ -1,0 +1,5 @@
+requests (2.4.3-1) unstable; urgency=low
+
+  * source package automatically created by stdeb 0.6.0
+
+ -- Kenneth Reitz <me@kennethreitz.com>  Tue, 11 Nov 2014 09:19:06 -0500
